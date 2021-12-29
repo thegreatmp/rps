@@ -62,6 +62,8 @@ switch (calcRound) {
         break;
     default:
         console.log('Invalid choice, try again.');
+        playRound();
+        break;
 }
 console.log(showGameScore());
 }
