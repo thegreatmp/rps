@@ -1,0 +1,15 @@
+html{
+    display: normal;
+}
+
+* {
+    border: solid red 2px;
+  }
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
