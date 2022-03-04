@@ -4,12 +4,48 @@ html{
 
 * {
     border: solid red 2px;
+    padding: 1px;
   }
 
 body {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100vh;
     margin: 0;
+    background-color: darkblue;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 30px; 
+    font-weight: bold;
+    padding: 10px 0px 20px;
+}
+
+.scoreboard {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 10px;
+}
+
+.scores { 
+    background-color:lightslategrey;
+    color: black;
+    font-size: 24;
+    font-weight: bold;
+    padding: 2px;
+}
+.buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
 }
