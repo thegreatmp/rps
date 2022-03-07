@@ -1,3 +1,7 @@
+/*const rockBtn = document.querySelector('rockBtn');
+rockBtn.onclick = () => alert("rock");*/
+
+
 let tie = 0;
 let computerScore = 0;
 let playerScore = 0;

@@ -49,3 +49,22 @@ body {
     justify-content: space-evenly;
     padding: 20px;
 }
+
+.rock, .paper, .scissors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgBox {
+    width: 125px;
+    height: 125px;
+    border: #3882f6 2px solid;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
